@@ -7,7 +7,7 @@ defmodule Porkchop.Library.Post do
     field :title, :string
     field :body, :string
     field :slug, :string
-    field :author, :string
+    field :author_id, :integer
     field :category, :string
     field :post_date, :date
 

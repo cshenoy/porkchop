@@ -7,14 +7,12 @@ defmodule Porkchop.LibraryTest do
   setup do
     Repo.insert %Post{
       title: "Post #1",
-      author: "Chetan Shenoy",
       body: "Some body",
       slug: "post-1",
       post_date: ~D[2018-08-08]
     }
     Repo.insert %Post{
       title: "Post #2",
-      author: "Not Chetan Shenoy",
       body: "Some other body",
       slug: "post-2",
       post_date: ~D[2018-08-09]
