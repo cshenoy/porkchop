@@ -30,8 +30,6 @@ defmodule PorkchopWeb.Router do
     # Add all routes that don't require admin authentication
     get "/login", SessionController, :new
     post "/login", SessionController, :create
-    # post "/sendlink", SessionController, :send_link
-    # get "/magiclink", SessionController, :create
   end
 
   scope "/admin", PorkchopWeb.Admin, as: :admin do
